@@ -7,6 +7,6 @@
   margin-bottom: 20px;
 }
 
-.lastInput {
+label:last-child {
   margin-bottom: 0;
 }

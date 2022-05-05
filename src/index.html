@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
-      class="main__form"
     >
 
       <fieldset class="fieldset">
@@ -24,7 +22,6 @@
           Surname:
           <input
             type="text"
-            class="enter"
             name="surname"
             autocomplete="off"
             required
@@ -35,17 +32,16 @@
           Name:
           <input
            type="text"
-           class="enter"
            name="name"
            autocomplete="off"
-           required>
+           required
+          >
         </label>
 
         <label class="form-field">
           How old are You?
           <input
             type="number"
-            class="enter"
             min="1"
             max="100"
             value="12"
@@ -56,15 +52,13 @@
           Full date of birth:
           <input
             type="date"
-            class="enter"
             name="birthDate">
         </label>
 
-        <label class="form-field lastInput">
+        <label class="form-field">
           I accept the term of the agreement
           <input
             type="checkbox"
-            class="enter"
             required>
         </label>
       </fieldset>
@@ -76,17 +70,15 @@
           E-mail:
           <input
             type="email"
-            class="enter"
             name="mail"
             placeholder="email@example.com"
             required>
         </label>
 
-        <label class="form-field lastInput">
+        <label class="form-field">
           Password:
           <input
             type="password"
-            class="enter"
             name="password"
             minlength="5"
             maxlength="10"
@@ -101,21 +93,20 @@
           Do you love cats?
           <input
             type="radio"
-            class="enter"
             name="cat"
-            value="y"> Yes
+            value="y">
+            Yes
           <input
             type="radio"
-            class="enter"
             name="cat"
-            value="n"> No
+            value="n">
+            No
         </label>
 
         <label class="form-field">
           What is your favorite color?
           <input
             type="color"
-            class="enter"
             name="color">
         </label>
 
@@ -123,7 +114,6 @@
           What time do you go to bed?
           <input
             type="time"
-            class="enter"
             name="time"
             step="2">
         </label>
@@ -141,11 +131,10 @@
           </select>
         </label>
 
-        <label class="form-field lastInput">
+        <label class="form-field">
           How do you rate our work?
           <input
             type="range"
-            class="enter"
             name="range"
             value="0">
         </label>
@@ -158,11 +147,11 @@
           <textarea
             name="comment"
             cols="20"
-            rows="2">
-          </textarea>
+            rows="2"
+          ></textarea>
         </label>
 
-        <label class="form-field lastInput">
+        <label class="form-field">
           Would you recommend us?
           <select
             name="recommend"
